@@ -1,8 +1,8 @@
 //Progression 1 - create a Manager array and return it
-let managerName = "Pep Guardiola";
-let managerAge = 42;
-let currentTeam = "Manchester City";
-let trophiesWon = 29;
+let managerName = "José Mourinho";
+let managerAge = 60;
+let currentTeam = "As Roma";
+let trophiesWon = 26;
 
 //Write your function here
 
@@ -38,9 +38,9 @@ function createFormation(formation){
   }
   var play =
   {
-    defender:formation[0],
-    midfield: formation[1],
-    forward: formation[2]
+    defender:formation[4],
+    midfield: formation[3],
+    forward: formation[3]
 }
   return play;
 
